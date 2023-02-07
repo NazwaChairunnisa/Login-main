@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(90deg, papayawhip, coral);	
+}
+.container{
+    text-align: center;
+    color: #242427;
+}
+
+table{
+    margin: auto;
+    border-bottom: solid #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+th {
+    font-size: 9pt;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em;
+    border-collapse: collapse;
+    background-color: #FFF;
+}
+td {
+    padding: 0.5em;
+    vertical-align: top;
+}
+tr {
+    border-bottom: 1px solid #DADADA;
+}
+tr {
+    background-color:  pink;
+   color: black;
+}
+
+tr:nth-child(odd)
+{
+    background-color: pink;
+    color: black;
+}
+
+.logout{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: black;
+    color: #ffff;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.aksi{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aksi .hapus{
+    background-color: chocolate;
+    color: #ffff;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.aksi .edit{
+    background-color: rgb(22, 208, 221);
+    color: #ffff;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}

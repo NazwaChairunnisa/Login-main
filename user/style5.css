@@ -1,0 +1,22 @@
+body{
+	font-family: sans-serif;
+	background: palevioletred;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.box-1{
+    width: 850px;
+    height: 850px;
+    background-color: coral;
+    margin: 150px auto;
+    text-align: justify;
+    border-top: 8px solid black;
+    border-right: 8px solid rgb(10, 10, 10);
+    border-bottom: 8px solid rgb(10, 10, 10);
+    border-left: 8px solid rgb(10, 10, 10);
+}    
